@@ -13,7 +13,7 @@
 
                     <table>
                         <tbody>
-                            <!-- <tr t-if="env.pos.config.iface_create_draft_sale_order">
+                            <tr t-if="env.pos.config.iface_create_draft_sale_order">
                                 <td>
                                     <div
                                         class="button button-sale-order"
@@ -25,7 +25,7 @@
                                         <span>Create Draft Sale Order</span>
                                     </div>
                                 </td>
-                            </tr> -->
+                            </tr>
 
                             <tr t-if="env.pos.config.iface_create_confirmed_sale_order">
                                 <td>
